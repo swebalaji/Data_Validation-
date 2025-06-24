@@ -37,7 +37,7 @@ This project provides a robust, extensible data validation model using Pydantic 
 
 -- Clean and simple to extend into FastAPI or Pandas pipelines
 
-**Sample Input and how to run **
+**📦 Sample Input**
 
 from model import Demographics
 
