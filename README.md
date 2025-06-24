@@ -1,4 +1,4 @@
-# Data_Validation of Patient data in Healthcare and Life Sciences 
+# Data_Validation of Patient data in Healthcare and Life Sciences Using Pydantic 
 This project provides a robust, extensible data validation model using Pydantic v2 to validate and enrich clinical trial subject demographic data.
 
 
