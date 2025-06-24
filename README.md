@@ -36,3 +36,21 @@ This project provides a robust, extensible data validation model using Pydantic 
 -- Pydantic v2
 
 -- Clean and simple to extend into FastAPI or Pandas pipelines
+
+**Sample Input and how to run **
+
+from model import Demographics
+
+data = {
+    "subject_id": 10011004,
+    "age": 33,
+    "sex": "female",
+    "race": "Japanese",
+    "weight_kg": 51,
+    "height_cm": 155.5,
+    "bmi": 21.4
+}
+
+demo = Demographics(**data)
+print(demo.model_dump())
+
