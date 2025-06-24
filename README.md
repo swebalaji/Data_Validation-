@@ -30,6 +30,7 @@ This project provides a robust, extensible data validation model using Pydantic 
 2) bmi_category (e.g., Normal, Overweight)
 
 **📦 Tech Stack**
+
 -- Python 3.9+
 
 -- Pydantic v2
